@@ -10,11 +10,10 @@ h1 {
   font-size: 4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
-  color: green;
 }
 /* nav styles */
 nav {
-  background-color: orange;
+  background-color:lightgray;
   padding: 1.2rem;
   width: 100%;
   border-radius: 10px;
@@ -25,6 +24,7 @@ nav {
 .nav-link {
   font-size: 1.5rem;
   padding-top: 40px;
+  margin-right: 4px;
 }
 /* hero section */
 .hero-section{
@@ -32,4 +32,94 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
+    
+    h2{
+      font-size: 2rem;
+      text-align: center;
+      color:rgb(178, 70, 70);
+      font-family:Georgia, 'Times New Roman', Times, serif ;
+    }
+
+    button{
+      padding: 10px 20px;
+      margin-top: 550px;
+      margin-left: 60px;
+      font-size: 25px;
+      font-weight: 700;
+      background-color: black;
+
+    }
+}
+/* menu section */
+.container{
+  margin-top: 20px 5px;
+  padding: 1rem;
+  background-color: lightgray;
+  border-radius: 15px;
+/* menu h2 styles */
+  h2{
+    margin-left: 350PX;
+    font-size: 2rem;
+    color: rgb(139, 38, 38);
+  }
+/* menu p styles */
+  p{
+    font-size: 1.2rem;
+  }
+} 
+/* about section styles */
+.about{
+  margin: 20px 5px;
+  padding: 1.5rem;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+
+  h2{
+    text-align: center;
+    font-size: 2rem;
+    color: aquamarine;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+}
+/* form styles */
+.form{
+  margin: 10px;
+  padding: 10px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(131, 174, 172);
+  border-radius: 10px;
+
+  p{
+    margin-bottom: 10px;
+  }
+}
+
+#btn{
+  padding: 8px 20px;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 70%;
+  margin-left: 170px;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: black;
+
+}
+.form input, .form label, .form textarea{
+  width:50%;
+}
+/* footer styles */
+footer{
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
 }
